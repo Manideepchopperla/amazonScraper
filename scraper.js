@@ -35,5 +35,5 @@ async function scrapeAmazonProduct(url) {
     console.log('Scraped data saved to amazon_product_data.json');
 }
 
-const amazonUrl = 'https://amzn.in/d/7CWfeUg'; 
+const amazonUrl = 'https://amzn.in/d/7CWfeUg';   // Replace with any Amazon India Smart TV product URL or any Amazon India Product URL
 scrapeAmazonProduct(amazonUrl).catch(console.error);
